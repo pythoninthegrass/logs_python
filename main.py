@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # This is an example project of Logtail python integration
 # This project showcases how to use Logtail in your python projects
 # For more information please visit https://github.com/logtail/logtail-python
@@ -48,7 +50,7 @@ logger.error('Oops! An error occurred!')
 logger.critical('Its not working, needs to be fixed ASAP!')
 
 # Send exception level log about errors in runtime using the exception() method
-# Error level log will be sent. Exception info is added to the logging message. 
+# Error level log will be sent. Exception info is added to the logging message.
 # This method should only be called from an exception handler.
 try:
     nonexisting_function() # Calling non-existing function
